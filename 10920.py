@@ -1,10 +1,8 @@
 import sys
-import time
 
 # A SOLUÇÃO PROPOSTA É BUSCAR A QUINA DO ANEL EM QUE ESTÁ O VALOR EM QUESTÃO E APARTIR DAI FAZER UMA BUSCA SEQUÊNCIAL
 
 def main():
-    ini = time.time()
     lin = input().split(' ')
     while lin[0] != '0':
         tam = int(lin[0])
@@ -103,8 +101,7 @@ def main():
         print ("Line = %d, column = %d."%(lin,col))
         lin = input().split(' ')
     
-    fim = time.time()
-    print (fim - ini)
+
         
 
 if __name__ == "__main__":
