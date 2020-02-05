@@ -1,0 +1,6 @@
+Este problema pede para que, dado uma sequência de campos produtivos e improdutivos, encontre-se a quantidade minima de espatalhos para cobrir todo o campo, sabendo-se que cada espantalho cobre a area em que esta posicionado e a area anterior e posterior.
+
+Para resolver este problema foi realizado, durante a propria leitura dos campos, a seguinte tatica.
+Enquanto não houvesse campo produtivo lido passava-se para proxima leitura e quando encontrado era pulado os proximos 2 campos. Esse procedimento e explicado pelo fato de que colocando-se o espantalho no proximo campo ao ser lido o primeiro campo produtivo o espantalho serviria para os 3 campos.
+
+Ao fim da leitura, a soma dos espantalhos necessarios era dado como resposta.

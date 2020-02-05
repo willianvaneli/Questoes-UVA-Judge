@@ -1,0 +1,4 @@
+Este problema quer a distância minima para percorrer todos os nos do grafo dado. Cada no e dado com sua posição x e y.
+
+Primeiramente foi lido todos os pontos para uma lista.
+Após isso enquanto a lista  de  pontos  iniciais  contiver  um ponto percorra toda a lista para encontrar o ponto mais proximo dos pontos ja visitados, adicione-o a lista de visitados e remova-o da lista inicial.

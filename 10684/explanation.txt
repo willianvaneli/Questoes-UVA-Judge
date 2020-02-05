@@ -1,0 +1,2 @@
+O problema quer saber da sequência que entrega o maior valor possivel, caso haja retorna-se o valor, caso menor que zero retorna-se Losing  streak.
+Este problema se resolve de uma maneira simples guardando o valor da soma atual e do maior ganho.

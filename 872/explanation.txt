@@ -1,0 +1,7 @@
+Este problema quer saber todas as organizações possiveis de letras dado um conjunto de regras.
+
+Cada item lido e uma lista contendo a letra e uma outra lista contendo todos os itens que tem que estar antes dele na ordenação.
+
+Ao ler regra a letra maior e buscada na lista de itens e quando encontrada a letra menor e adicionada a lista do item.
+
+Apos isso e utilizado a funcao recursiva, iniciada uma vez com cada item da lista de itens, que recebe uma lista dos itens que ja foram utilizados e item a ser verificado. Caso chegue ao final da lista de itens e todos possam ser adicionados a lista resultante, que e uma organização possivel, e adicionada a lista final de resultados.

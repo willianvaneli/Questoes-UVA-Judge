@@ -1,0 +1,4 @@
+Este problema pede para, que com uma entrada de bags, retornar a quantidade de sacolas agrupadas uma dentro da outra, e tambem a sequencia de sacolas de dentro para fora.
+Para isso foi utilizado um array, para guardar a quantidade de cada numero afim de saber qual mais se repete, e uma fila prioritaria de ordem crescente.
+
+Apos o preenchimento da fila foi realizado a separação dos itens na matriz, lista de listas, onde foi utilizado o numero maximo de um numero repetido para definir o quantidade de linhas da matriz enquanto as colunas foram preenchidas de forma uniforme ate a fila se esvaziar.

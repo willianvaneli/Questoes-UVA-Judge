@@ -1,0 +1,3 @@
+Neste problema e pedido para encontrar o retângulo com maior valor dado uma matriz.
+Para conseguir realizar o calculo no tempo estipulado foi necessario, ao realizar o calculo do retângulo, manter os valores calculados da ultima linha.
+Ex: Ao realizar o calculo de um retângulo 3x3 ja existe o calculo do retangulo 2x3, este valor e adicionado e somado ao valor das posições lin 3 col 1, lin 3 col 2, lin 3 col 3.

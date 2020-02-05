@@ -1,0 +1,18 @@
+Este problema quer a quantidade de grafos que são formados dado seus nos, representados por letras, e a quantidade maxima de nos que e informada dando a maior letra que sera lida.
+
+Este foi o ponto que acabou me fazendo perder algum tempo para encontrar meu erro. Não necessariamente todos os nos continham ligações e assim, caso uma letra estivesse fora da entrada, a resposta saia com um grafo a menos.
+
+Ex: Caso a entrada fosse:
+
+D
+AB
+BA
+BC
+
+A resposta eram 2 grafos, onde o D era um grafo desconexo, então apos perceber o meu erro a tatica tomada foi a seguinte.
+\newline
+Ao receber a maior letra uma lista era preenchida, com uma lista contendo apenas uma letra, como se cada letra fosse um grafo desconexo.
+
+Apos isso era realizada a leitura das ligações. Caso a ligação  for da  letra  para  ela  mesma  não e necessario  nenhuma  ação , caso não , e passado um loop  para  achar a ocorrência  da  primeira letra e verificada  se a segunda letra  esta na  mesma  lista , caso  não e setado o boleano  que  informa a necessidade  do  merge entre as  listas  que  contem  as  letras.
+
+Caso  haja  necessidade  do merge a lista  de ligacoes e percorrida  ate  encontrar a posição  da  outra  lista  que  fara  parte do merge, tendo em  vista  que a primeira  ja temos em i - 1
