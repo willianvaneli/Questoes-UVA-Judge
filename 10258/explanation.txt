@@ -1,0 +1,3 @@
+Neste problema precisamos veriﬁcar a pontuação e a penalidade de cada time para formar a classiﬁcação. Para resolver este problema primeiramente foram criados dois dicionários, um de times e um de saída.
+12
+A cada entrada era veriﬁcado se o time já existia no dicionário, caso sim, era adicionado os pontos, caso completo, e seu tempo, adicionado a penalidade. Caso não existisse o time era adicionado juntamente com seu resultado. A lista de saída armazenava somente dados ﬁnais, questões corretas. No ﬁnal o dicionário era transformado em lista para facilitar a ordenação e posteriormente o resultado era printado. Um ponto de erro foi esquecer que times que não obtiveram pontos também deveriam aparecer no score ﬁnal. Corrigido adicionando a saída com valores zerados.

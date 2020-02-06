@@ -1,0 +1,3 @@
+Neste problema devemos descobrir se dada uma lista de nu´meros a diferen¸ca entre cada nu´mero e seu sucessor preenchem uma lista contendo os valores de 1 ao tamanho da lista inicial -1.
+5
+Nesta implementa¸ca˜o criamos a lista de resultados e uma ﬂag para auxilio da veriﬁca¸ca˜o. Para entrada com dois ou 1 elemento o resultado sempre ´e Jolly. Para entradas com mais de 3 elementos ´e realizado os seguintes passos: 1- Calcula-se toda diferen¸ca entre a posi¸c˜ao da lista de entrada e a pr´oxima, exceto a u´ltima, e adicionado a lista de resultados. 2- Ordenado a lista de resultados. 3- Veriﬁcado se a lista de resultado cont´em os nu´meros de 0 a n-1. Caso sim, Jolly, caso na˜o, Not Jolly

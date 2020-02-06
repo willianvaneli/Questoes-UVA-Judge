@@ -1,0 +1,1 @@
+A ideia do desaﬁo é descobrir se o trem pode ser reorganizado com uma única passada, o teste ´e feito com uma pilha (dica dada já no nome da cidade PopPush). A tática para resolver o problema proposto foi caso o próximo número lido seja maior que o anterior, adicionar a pilha até o mesmo e retira-lo. O próximo número pode ser maior, mas caso menor pode ser somente em 1 unidade.
